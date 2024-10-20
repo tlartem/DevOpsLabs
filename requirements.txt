@@ -1,1 +1,1 @@
-unittest
+django==4.2.16
