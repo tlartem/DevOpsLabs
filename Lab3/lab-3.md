@@ -77,7 +77,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-22.04  # Указана конкретная версия ОС
+    runs-on: ubuntu-22.04
     timeout-minutes: 10
 
     steps:
