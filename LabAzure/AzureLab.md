@@ -18,6 +18,8 @@
 
 У нас есть здоровенная табличка, где перечислены сервисы Azure и то, как они тарифицируются. Категории (Database, Data & Analytics, Monitoring, Backup & Recovery, Networking, Compute), подкатегории (Relational Database, Business Analytics и т.д.), конкретные сервисы (например, Azure Database for MySQL, Azure Databricks, Azure Monitor…), и метрики (Compute Hours, Data Stored (GB), Notification Events, Data Transfer и прочие хитрые параметры).
 
+![](<CleanShot 2024-12-26 at 04.23.07@2x.png>)
+
 ### Необходимо
 
 1. Загрузить данные в какую-нибудь табличку, чтобы было удобнее тыкать пальцем.  
@@ -25,6 +27,8 @@
 3. Добавить описание каждого сервиса: кто он, что делает, зачем вообще нужна эта штука. 
 4. Понять их единицы тарификации: за что мы платим — за время, объем, количество трансферов, активити рансы или что-то еще.  
 5. Сохранить результаты в порядке убывания потребления.
+
+
 
 ### Алгоритм работы
 
@@ -114,6 +118,8 @@
 - CDN — это про Data Transfer (GB).  
 - Мониторинг — про количество уведомлений.  
 - Базовые базы (круто сказал, да? :) ) — за Instance Hours.
+
+![alt text](<CleanShot 2024-12-26 at 04.24.09@2x.png>)
 
 ### Распределяем все в порядке потребления и вот готовая табличка: [тыкай, друг, не бойся, я тебя не обижу](https://docs.google.com/spreadsheets/d/1rK44hvYy4a6Xv2l_UIceMkjFSLG5x6dKQWWrSIsKZUY/edit?usp=sharing)
 
